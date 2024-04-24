@@ -1,0 +1,142 @@
+@import "./theme/palette.module.scss";
+
+@font-face {
+  font-display: swap;
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 100;
+  src: url("../../public/fonts/yekan/woff/IRANYekanXFaNum-Thin.woff")
+      format("woff"),
+    url("../../public/fonts/yekan/woff2/IRANYekanXFaNum-Thin.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 200;
+  src: url("../../public/fonts/yekan/woff/IRANYekanXFaNum-UltraLight.woff")
+      format("woff"),
+    url("../../public/fonts/yekan/woff2/IRANYekanXFaNum-UltraLight.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../public/fonts/yekan/woff/IRANYekanXFaNum-Light.woff")
+      format("woff"),
+    url("../../public/fonts/yekan/woff2/IRANYekanXFaNum-Light.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../public/fonts/yekan/woff/IRANYekanXFaNum-Medium.woff")
+      format("woff"),
+    url("../../public/fonts/yekan/woff2/IRANYekanXFaNum-Medium.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 600;
+  src: url("../../public/fonts/yekan/woff/IRANYekanXFaNum-DemiBold.woff")
+      format("woff"),
+    url("../../public/fonts/yekan/woff2/IRANYekanXFaNum-DemiBold.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 800;
+  src: url("../../public/fonts/yekan/woff/IRANYekanXFaNum-ExtraBold.woff")
+      format("woff"),
+    url("../../public/fonts/yekan/woff2/IRANYekanXFaNum-ExtraBold.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../public/fonts/yekan/woff/IRANYekanXFaNum-Black.woff")
+      format("woff"),
+    url("../../public/fonts/yekan/woff2/IRANYekanXFaNum-Black.woff2")
+      format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 950;
+  src: url("../../public/fonts/yekan/woff/IRANYekanXFaNum-ExtraBlack.woff")
+      format("woff"),
+    url("../../public/fonts/yekan/woff2/IRANYekanXFaNum-ExtraBlack.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 1000;
+  src: url("../../public/fonts/yekan/woff/IRANYekanXFaNum-Heavy.woff")
+      format("woff"),
+    url("../../public/fonts/yekan/woff2/IRANYekanXFaNum-Heavy.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../../public/fonts/yekan/woff/IRANYekanXFaNum-Bold.woff")
+      format("woff"),
+    url("../../public/fonts/yekan/woff2/IRANYekanXFaNum-Bold.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../public/fonts/yekan/woff/IRANYekanXFaNum-Regular.woff")
+      format("woff"),
+    url("../../public/fonts/yekan/woff2/IRANYekanXFaNum-Regular.woff2")
+      format("woff2");
+}
+
+* {
+  font-family: "IRANYekanX";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  direction: rtl;
+}
+
+body {
+  height: 100%;
+}
+.MuiBox-root {
+  max-height: 10px !important;
+}

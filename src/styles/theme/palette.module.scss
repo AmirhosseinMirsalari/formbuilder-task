@@ -1,0 +1,158 @@
+$primary50: #f2f7f3;
+$primary100: #e0ebe1;
+$primary200: #c2d8c6;
+$primary300: #99bca1;
+$primary400: #6d9a7a;
+$primary500: #4c7d5b;
+$primary600: #3f6d4e;
+$primary700: #2d4f39;
+$primary800: #263f2f;
+$primary900: #203428;
+
+$secondary50: #fef8ec;
+$secondary100: #fbeaca;
+$secondary200: #f7d590;
+$secondary300: #f4b955;
+$secondary400: #f2a942;
+$secondary500: #ea7e16;
+$secondary600: #cf5c10;
+$secondary700: #ac3f11;
+$secondary800: #8c3214;
+$secondary900: #732914;
+
+$grey50: #f9fafb;
+$grey100: #f2f4f7;
+$grey200: #eaecf0;
+$grey300: #d0d5dd;
+$grey400: #98a2b3;
+$grey500: #667085;
+$grey600: #475467;
+$grey700: #344054;
+$grey800: #1d2939;
+$grey900: #101828;
+
+$error50: #fef3f2;
+$error100: #fee4e2;
+$error200: #fecdca;
+$error300: #fda29b;
+$error400: #f97066;
+$error500: #f04438;
+$error600: #d92d20;
+$error700: #b42318;
+$error800: #912018;
+$error900: #7a271a;
+
+$warning50: #fffaeb;
+$warning100: #fef0c7;
+$warning200: #fedf89;
+$warning300: #fec84b;
+$warning400: #fdb022;
+$warning500: #f79009;
+$warning600: #dc6803;
+$warning700: #b54708;
+$warning800: #93370d;
+$warning900: #7a2e0e;
+
+$success50: #ecfdf3;
+$success100: #d1fadf;
+$success200: #a6f4c5;
+$success300: #6ce9a6;
+$success400: #32d583;
+$success500: #12b76a;
+$success600: #039855;
+$success700: #027a48;
+$success800: #05603a;
+$success900: #054f31;
+
+$info50: #f3f8fc;
+$info100: #e6f0f8;
+$info200: #c8e0ef;
+$info300: #97c7e2;
+$info400: #60a9d0;
+$info500: #3b8ebc;
+$info600: #2b729e;
+$info700: #22577a;
+$info800: #214e6b;
+$info900: #20425a;
+
+$whiteText: #ffffff;
+
+:export {
+  primary50: $primary50;
+  primary100: $primary100;
+  primary200: $primary200;
+  primary300: $primary300;
+  primary400: $primary400;
+  primary500: $primary500;
+  primary600: $primary600;
+  primary700: $primary700;
+  primary800: $primary800;
+  primary900: $primary900;
+
+  secondary50: $secondary50;
+  secondary100: $secondary100;
+  secondary200: $secondary200;
+  secondary300: $secondary300;
+  secondary400: $secondary400;
+  secondary500: $secondary500;
+  secondary600: $secondary600;
+  secondary700: $secondary700;
+  secondary800: $secondary800;
+
+  grey50: $grey50;
+  grey100: $grey100;
+  grey200: $grey200;
+  grey300: $grey300;
+  grey400: $grey400;
+  grey500: $grey500;
+  grey600: $grey600;
+  grey700: $grey700;
+  grey800: $grey800;
+  grey900: $grey900;
+
+  warning50: $warning50;
+  warning100: $warning100;
+  warning200: $warning200;
+  warning300: $warning300;
+  warning400: $warning400;
+  warning500: $warning500;
+  warning600: $warning600;
+  warning700: $warning700;
+  warning800: $warning800;
+  warning900: $warning900;
+
+  error50: $error50;
+  error100: $error100;
+  error200: $error200;
+  error300: $error300;
+  error400: $error400;
+  error500: $error500;
+  error600: $error600;
+  error700: $error700;
+  error800: $error800;
+  error900: $error900;
+
+  success50: $success50;
+  success100: $success100;
+  success200: $success200;
+  success300: $success300;
+  success400: $success400;
+  success500: $success500;
+  success600: $success600;
+  success700: $success700;
+  success800: $success800;
+  success900: $success900;
+
+  info50: $info50;
+  info100: $info100;
+  info200: $info200;
+  info300: $info300;
+  info400: $info400;
+  info500: $info500;
+  info600: $info600;
+  info700: $info700;
+  info800: $info800;
+  info900: $info900;
+
+  whiteText: $whiteText;
+}
