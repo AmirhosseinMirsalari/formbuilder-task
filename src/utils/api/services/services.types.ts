@@ -26,7 +26,6 @@ export interface IApi {
     body: unknown,
     config?: AxiosRequestConfig
   ) => Promise<AxiosResponse<T>>;
-  defaults: unknown;
 }
 
 export interface responseRefresh {

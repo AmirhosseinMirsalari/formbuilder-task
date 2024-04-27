@@ -54,6 +54,4 @@ export class Api implements IApi {
   ): Promise<AxiosResponse<T, any>> {
     return this.axios.patch<T>(url, body, config);
   }
-
-  defaults = this.axios.defaults;
 }
