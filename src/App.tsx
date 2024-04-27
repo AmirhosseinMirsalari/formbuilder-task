@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { Box, Pagination } from "@mui/material";
+import { Box, CircularProgress, Pagination } from "@mui/material";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { useEffect, useState } from "react";
 import { FieldValues, useForm } from "react-hook-form";
@@ -70,7 +70,6 @@ function App() {
       type: "selectionInput",
       name: "file_type",
       label: "نوع پرونده",
-      rules: { required: { value: true, message: "وارد کردن الزامی" } },
       options: files,
       disabled: isLoadingFiles ? true : false,
     },
@@ -78,7 +77,6 @@ function App() {
       type: "selectionInput",
       name: "province",
       label: "نام استان",
-      rules: { required: { value: true, message: "وارد کردن الزامی" } },
       options: provinceData,
       disabled: isLoadingProvince ? true : false,
     },
@@ -86,7 +84,6 @@ function App() {
       type: "selectionInput",
       name: "county",
       label: "نام شهر",
-      rules: { required: { value: true, message: "وارد کردن الزامی" } },
       options: countyData,
       disabled:
         isLoadingCounty || Boolean(!formController.watch("province"))
@@ -97,7 +94,6 @@ function App() {
       type: "text",
       name: "insurer_full_name",
       label: "نام بیمه گذار",
-      rules: { required: { value: true, message: "وارد کردن الزامی" } },
     },
   ];
 
@@ -151,17 +147,20 @@ function App() {
       {dataFiltered?.results.map((item, index) => {
         return <BoxFilter item={item} index={index} page={page} />;
       })}
-      <Box
-        display={isPending || !dataFiltered ? "none" : "flex"}
-        justifyContent="center"
-        marginBottom={2}
-      >
-        <Pagination
-          count={dataFiltered?.page_count}
-          page={page}
-          onChange={handleChange}
-        />
-      </Box>
+      {isPending && (
+        <Box justifyContent="center" marginBottom={2} display="flex">
+          <CircularProgress />
+        </Box>
+      )}
+      {dataFiltered && (
+        <Box justifyContent="center" marginBottom={2} display="flex">
+          <Pagination
+            count={dataFiltered?.page_count}
+            page={page}
+            onChange={handleChange}
+          />
+        </Box>
+      )}
     </Box>
   );
 }
